@@ -160,19 +160,19 @@ public abstract class Person
      * @return the person's details. 
      */
     @Override
-    public String toString()
+    public String toString() // object
     {
         return String.format("""
                              Role: %s
                              Name(s): %s
                              Birth Date: %s
-                             Gender%s
-                             Nationality""",
+                             Gender: %s
+                             Nationality: %s""",
                 getPersonRole(),
                 getNames(),
-                birthDate,
-                getGender() == 'm' || getGender() == 'M' ? "Male":"Female",
-                nationality
+                this.birthDate,
+                (getGender() == 'm' || getGender() == 'M') ? "Male":"Female",
+                this.nationality
         );
     }
     
