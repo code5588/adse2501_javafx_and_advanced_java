@@ -1,0 +1,2 @@
+This file contains some dummy text to illustrate  working with the classes &
+methods in the java.io and java.nio packages.
