@@ -1,4 +1,4 @@
-package edu.adse2501.sess04_thread;
+package edu.adse2501.sess04_threads;
 
 /**
  * Java program to demonstrate creating threads fro a class that implements

@@ -1,4 +1,4 @@
-package edu.adse2501.sess04_thread;
+package edu.adse2501.sess04_threads;
 
 import java.security.SecureRandom;
 
